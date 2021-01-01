@@ -1,0 +1,252 @@
+body{
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 100px;
+}
+
+.icons {
+  background: #5e7681;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #0e0f0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family:"Arial", Serif;
+  overflow-x:hidden;
+  display: block;
+  text-align: left;
+}
+
+.icons ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 5%;
+}
+
+
+.icons ul li a {
+  color: rgb(175, 175, 180);
+  text-shadow: 2px 2px 8px rgb(5, 5, 5);
+  font-size: 30px;
+}
+
+.icons ul li a:hover {
+  color: rgb(230, 84, 11);
+}
+
+.landing {
+  background: #f5f6f7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e1e6eb, #ecf0f1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0c0c0c, #4d4e4e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family:"Arial", Serif;
+  overflow-x:hidden;
+  font-size: 1.5em;
+  padding-top: 50px;
+  color: rgb(175, 175, 180);
+  text-align: center;
+  text-shadow: 2px 2px 8px rgb(5, 5, 5);
+  padding-bottom: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.landing img {
+    width: auto;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid rgb(230, 84, 11);
+}
+
+.landing h3 {
+  font-size: 1em;
+  color: rgb(175, 175, 180);
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.landing ul li {
+list-style: none;
+}
+
+.landing ul li a {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  color: rgb(175, 175, 180);
+  padding-bottom: 10px;
+}
+
+.landing ul li a:hover {
+  color: rgb(230, 84, 11);
+}
+
+.projects h1{
+  padding-bottom: 40px;
+}
+
+.column {
+  width: 30%;
+  float: left;
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+}
+
+.card {
+  box-shadow: 10px 10px 10px 10px rgba(1, 46, 11, 0.2);
+  max-width: 300px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 0px;
+  padding-bottom: 15px;
+}
+
+.title {
+  color: gray;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  display: inline-block;
+  color: white;
+  background-color: rgb(2, 87, 27);
+  cursor: pointer;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+/*
+a:hover,button:hover {
+  color: rgb(22, 170, 54);
+}
+*/
+
+.projects img:hover {
+  transform: scale(1.9);
+}
+
+.skills {
+  list-style: none;
+  width: 500px;
+  margin: 60px 30px;
+  display: inline-block;
+}
+
+.skills h1{
+  text-align: center;
+}
+
+.skills li {
+  margin: 50px 0;
+}
+.skills li h3 {
+  text-align: left;
+}
+
+.bar {
+  background: #0e0f0f;
+  display: block;
+  height: 2px;
+  border: 1px solid green;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px yellowgreen;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: rgb(6, 248, 59);
+}
+
+.html {
+  width: 95%;
+}
+
+.css {
+  width: 90%;
+}
+
+.js {
+  width: 25%;
+}
+
+.react {
+  width: 15%;
+}
+
+.git {
+  width: 40%;
+}
+
+.agile {
+  width: 90%;
+}
+
+.container-4 > div {
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+}
+
+.box-7 {
+  z-index: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+
+.box-8{
+  z-index: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+.box-9{
+  z-index: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+
+.box-10{
+  z-index: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(245, 55, 55);
+}
+
+.box-11{
+  z-index: 1;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(50, 164, 230);
+}
