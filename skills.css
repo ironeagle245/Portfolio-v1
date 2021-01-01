@@ -1,0 +1,57 @@
+.skills {
+  list-style: none;
+  width: 500px;
+  margin: 60px 30px;
+  display: inline-block;
+}
+
+.skills h1{
+  text-align: center;
+}
+
+.skills li {
+  margin: 50px 0;
+}
+.skills li h3 {
+  text-align: left;
+}
+
+.bar {
+  background: #0e0f0f;
+  display: block;
+  height: 2px;
+  border: 1px solid green;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px yellowgreen;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: rgb(6, 248, 59);
+}
+
+.html {
+  width: 95%;
+}
+
+.css {
+  width: 90%;
+}
+
+.js {
+  width: 25%;
+}
+
+.react {
+  width: 15%;
+}
+
+.git {
+  width: 40%;
+}
+
+.agile {
+  width: 90%;
+}

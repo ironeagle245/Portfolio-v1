@@ -1,0 +1,62 @@
+.projects h1{
+  padding-bottom: 40px;
+}
+
+.column {
+  width: 30%;
+  float: left;
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+}
+
+.card {
+  box-shadow: 10px 10px 10px 10px rgba(1, 46, 11, 0.2);
+  max-width: 300px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 0px;
+  padding-bottom: 15px;
+}
+
+.title {
+  color: gray;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  display: inline-block;
+  color: white;
+  background-color: rgb(2, 87, 27);
+  cursor: pointer;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+/*
+a:hover,button:hover {
+  color: rgb(22, 170, 54);
+}
+*/
+
+.projects img:hover {
+  transform: scale(1.9);
+}

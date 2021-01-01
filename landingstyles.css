@@ -24,8 +24,8 @@ html, body {
 .color-overlay {
   width: 100%;
   height: 100%;
-  background: rgb(31, 12, 100);
-  opacity: 0.7;
+  background: rgb(17, 8, 136);
+  opacity: 0.8;
   position: absolute;
 }
 
@@ -35,7 +35,7 @@ html, body {
 .container-1 {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  background-color: rgb(80, 40, 24);
+  background-color: rgb(17, 10, 88);
 }
 
 .box-1{
@@ -47,9 +47,10 @@ html, body {
 }
 
 .box-1 i{
-  color: rgb(17, 238, 65);
+  color: white;
   padding: 5px;
   margin: 10px;
+  text-shadow: 2px 2px 8px rgb(129, 134, 109);
 }
 
 .box-2{
@@ -61,7 +62,7 @@ html, body {
 }
 
 .box-2 i{
-  color: rgb(154, 158, 155);
+  color: rgb(172, 147, 147);
   padding: 5px;
   margin: 10px;
 }
@@ -82,6 +83,10 @@ html, body {
   padding-bottom: 5vh;
 }
 
+.box-3 img{
+  border: 3px solid rgb(161, 159, 158);
+}
+
 .box-4{
   text-align: center;
   font-size: 20px;
@@ -94,7 +99,7 @@ html, body {
 }
 
 .box-4 {
-  font-family:'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   padding: 10px 10vw 10px 10vw;
   color: aliceblue;
@@ -113,13 +118,13 @@ html, body {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  background-color: rgb(17, 238, 65);
+  background-color: white;
   margin: 10vw;
   border-radius: 70px;
 }
 
 .box-5 i{
-  color: rgb(91, 94, 92);
+  color: rgb(154, 158, 155);
   padding: 5px;
   margin: 10px;
 }
@@ -129,13 +134,13 @@ html, body {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  background-color: rgb(17, 238, 65);
+  background-color: white;
   margin: 10vw;
   border-radius: 70px;
 }
 
 .box-6 i{
-  color: rgb(91, 94, 92);
+  color: rgb(154, 158, 155);
   padding: 5px;
   margin: 10px;
 }
@@ -146,6 +151,8 @@ html, body {
 .container-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .box-7 {
