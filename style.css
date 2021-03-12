@@ -250,3 +250,16 @@ a:hover,button:hover {
   justify-content: center;
   color: rgb(50, 164, 230);
 }
+
+.container-4 .box-7, .box-8, .box-9, .box-10, .box-11 i {
+  text-shadow: 2px 2px 8px rgb(5, 5, 5);
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
